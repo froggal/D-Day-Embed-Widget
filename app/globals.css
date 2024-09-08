@@ -16,12 +16,29 @@ body {
   overflow-x: hidden;
 }
 
+/* Import Fonts (Pretendard Series) */
+@font-face {
+  font-family: 'Pretendard-Bold' ;
+  font-weight: 700;
+  font-style: normal;
+  src: url('/app/fonts/Pretendard/Bold.otf') format('otf');
+}
+@font-face {
+  font-family: 'Pretendard-SemiBold' ;
+  font-weight: 500;
+  font-style: normal;
+  src: url('/app/fonts/Pretendard/SemiBold.otf') format('otf');
+}
+@font-face {
+  font-family: 'Pretendard-Medium' ;
+  font-weight: 300;
+  font-style: normal;
+  src: url('/app/fonts/Pretendard/Medium.otf') format('otf');
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -40,3 +57,4 @@ a {
     color-scheme: dark;
   }
 }
+

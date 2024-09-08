@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+}
+
+.container h1{
+    font-family: 'Pretendard-Bold', sans-serif;
+}
+.container h2{
+    font-family: 'Pretendard-SemiBold', sans-serif;
+}
+.container h3{
+    font-family: 'Pretendard-Medium', sans-serif;
+}
